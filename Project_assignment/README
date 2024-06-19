@@ -1,0 +1,11 @@
+ID: 11296303
+
+Created a UIMockup
+
+The login.js component presents a screen where users can log in. Once the login button is pressed, the homescreen is displayed.
+
+ Homescreen.js shows the user's profile and suggests job types they might find interesting. 
+ 
+ jobs.js lists jobs vertically, allowing users to scroll through available options. 
+ 
+ In PopularJobs, users can explore a vertical list of popular jobs along with their salaries.
