@@ -24,7 +24,7 @@ export default function Login(){
 
             <View style={{flexDirection: 'row', marginBottom:10}}>
             <Text style={{fontWeight:"bold",fontSize:20,marginRight:10}}>Welcome Back</Text>
-            <Icon name="hand-o-right" size={30} color="#000" />
+            
             </View>
 
             <Text style={{opacity:0.3,marginBottom:60}}>Let's log in. Apply to jobs! </Text>

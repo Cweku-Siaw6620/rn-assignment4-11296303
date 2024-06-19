@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet,Image } from 'react-native';
-import PopularJobs from './PopularJobs';
 import FeaturedJobs from './jobs';
+import PopularJobs from './PopularJobs';
+
 
 const HomeScreen = ({route}) => {
 const {username,email}= route.params
@@ -30,20 +31,19 @@ const {username,email}= route.params
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    
-    header:{
-      flexDirection: 'row',
-      alignItems: 'center',
-      padding: 20,
-    },
-  
-    image: {
-      width: 100,
-      height: 100,
-      borderRadius: 50, // to make it rounded
-    },
-    
   },
+    header:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    padding: 20,
+  },
+
+  image: {
+    width: 100,
+    height: 100,
+    borderRadius: 50, // to make it rounded
+  },
+    
 });
 
 export default HomeScreen;
