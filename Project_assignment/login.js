@@ -10,10 +10,8 @@ export default function Login(){
 
 
     const handleLogin = () => {
-        // Perform validation (for simplicity, check if fields are not empty)
         if (username && email) {
-          // Navigate to home screen (replace 'HomeScreen' with your actual home screen component)
-          navigation.navigate('HomeScreen');
+          navigation.navigate('HomeScreen',{username,email});
         } else {
           alert('Please enter username and email.');
         }
